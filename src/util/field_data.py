@@ -5,31 +5,6 @@ field_id_rgb = {
     (0, 255, 0): 2       # ground
 }
 
-"""
-subtypes
-
-lu - left-up corner
-u - up border
-ru - right-up corner
-
-l - left border
-c - center
-r - right border
-
-lb - left-bottom corner
-b - bottom border
-rb - right-bottom corner
-
-s - separated single
-vo - vertical "overhang"
-ho - horizontal "overhang"
-
-lt - left "tip"
-ut - up "tip"
-rt - right "tip"
-bt - bottom "tip"
-"""
-
 field_neighbor_sub = {
     # left, up, right, bottom  :  subtype
     (0, 0, 1, 1): 'lu',
@@ -44,9 +19,9 @@ field_neighbor_sub = {
     (0, 0, 0, 0): 's',
     (0, 1, 0, 1): 'vo',
     (1, 0, 1, 0): 'ho',
-    (1, 0, 0, 0): 'lt',
+    (0, 0, 1, 0): 'lt',
     (0, 1, 0, 0): 'ut',
-    (0, 0, 1, 0): 'rt',
+    (1, 0, 0, 0): 'rt',
     (0, 0, 0, 1): 'bt',
 }
 

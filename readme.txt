@@ -21,10 +21,8 @@ b - bottom border
 rb - right-bottom corner
 
 s - separated single
-lo - left "overhang"
-uo - up "overhang"
-ro - right "overhang"
-bo - bottom "overhang"
+vo - vertical "overhang"
+ho - horizontal "overhang"
 lt - left "tip"
 ut - up "tip"
 rt - right "tip"
